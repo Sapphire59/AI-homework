@@ -3,7 +3,7 @@ function generatePoem(event) {
 
   new Typewriter("#poem", {
     strings: [
-      "The Cardinal has come again, he all the brake salutes, his music floods the silent glen",
+      "The Cardinal has come again, he all the brake salutes, his music floods the silent glen.",
     ],
     autoStart: true,
     delay: 1,
