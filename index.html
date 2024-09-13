@@ -3,6 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <link rel="stylesheet" href="style.css" />
     <title>AI Poem Generator 🦅</title>
   </head>
@@ -13,7 +15,7 @@
       </header>
 
       <main>
-        <form>
+        <form id="poem-form-generator">
           <input
             type="text"
             placeholder="Enter the topic of the poem"
@@ -26,16 +28,7 @@
         </form>
       </main>
 
-      <div class="poem">
-        The red flamingo flew up from the South, From the land all withered and
-        parched with drouth.
-        <br />
-        He gleamed on the sky like a flaming brand Blown from a burning prairie
-        land.
-        <br />
-        He waded deep through the dark morass, In the samphire beds, and the
-        cool dank grass.
-      </div>
+      <div class="poem" id="poem"></div>
 
       <footer>
         This AI project is created by
