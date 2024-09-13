@@ -16,22 +16,24 @@
       </header>
 
       <main>
-        <form id="poem-form-generator">
-          <input
-            type="text"
-            placeholder="Enter the topic of the poem"
-            autofocus
-            required
-            autocomplete="off"
-            class="instructions"
-            id="user-instructions"
-          />
-          <input type="submit" class="submit-button" />
-        </form>
+        <div class="form-wrap">
+          <form id="poem-form-generator">
+            <input
+              type="text"
+              placeholder="Enter the topic of an English Poem"
+              autofocus
+              required
+              autocomplete="off"
+              class="instructions"
+              id="user-instructions"
+            />
+            <input type="submit" class="submit-button" />
+          </form>
+
+          <div class="hint">i.e: Birds, Movie characters, Holidays</div>
+        </div>
+        <div class="poem hidden" id="poem"></div>
       </main>
-
-      <div class="poem" id="poem"></div>
-
       <footer>
         This AI project is created by
         <a href="https://github.com/Sapphire59" target="_blank"
